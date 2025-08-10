@@ -1,15 +1,26 @@
-# Python Tasks
+Task 1 – Perform Basic Mathematical Operations
+x = int(input(...)) and y = int(input(...))
 
-This repository contains Python scripts for basic programming tasks.
+Takes two numbers from the user and converts them into integers.
 
-## Task 1
-**Greeting with Full Name**  
-- Takes first name and last name from user input.
-- Concatenates them into a full name.
-- Prints a personalized greeting.
+add, sub, mul, div
 
-## Task 2
-**Reverse a String**  
-- Takes any string input from the user.
-- Reverses the string.
-- Prints the reversed string.
+Performs addition, subtraction, multiplication, and integer division (// gives quotient without decimal part).
+
+print(...)
+
+
+
+
+Task 2 – Create a Personalized Greeting
+f = str(input(...)) and l = str(input(...))
+
+Takes first name and last name from the user as strings.
+
+fullName = f + " " + l
+
+Concatenates first and last names with a space in between.
+
+print(f"...")
+
+Uses f-string formatting to print a personalized welcome message.
